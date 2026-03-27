@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>gomd3n.com | Gold & Black</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="hero">
+        <nav class="nav">
+          <div class="logo">gomd3n.com</div>
+          <a class="nav-link" href="#account">Create account</a>
+        </nav>
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Premium digital vault</p>
+            <h1>Gold-standard banking for a black‑label brand.</h1>
+            <p class="subhead">
+              A bold, minimal presence with a clear call to action. Designed to
+              feel premium from the first scroll.
+            </p>
+            <div class="hero-actions">
+              <a class="btn primary" href="#account">Create account</a>
+              <a class="btn ghost" href="#vision">See the vision</a>
+            </div>
+          </div>
+          <div class="hero-panel">
+            <div class="panel-title">Launch mode</div>
+            <div class="panel-stat">
+              <span>Status</span>
+              <strong>Ready to build</strong>
+            </div>
+            <div class="panel-stat">
+              <span>Theme</span>
+              <strong>Gold & Black</strong>
+            </div>
+            <div class="panel-note">
+              Built as a fast, static site for free hosting. We can plug in real
+              account creation when you’re ready.
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section id="vision" class="section">
+        <div class="section-title">
+          <p class="eyebrow">Vision</p>
+          <h2>Minimal surface. Maximum trust.</h2>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Confident presence</h3>
+            <p>Gold accents against a deep black canvas signal premium focus.</p>
+          </article>
+          <article class="card">
+            <h3>Simple onboarding</h3>
+            <p>Start with a clean account request and expand into full flows.</p>
+          </article>
+          <article class="card">
+            <h3>Future‑proof</h3>
+            <p>Static now, dynamic later with a backend and database.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="account" class="section accent">
+        <div class="section-title">
+          <p class="eyebrow">Create account</p>
+          <h2>Tell us how you want to start.</h2>
+        </div>
+        <form class="form" id="accountForm">
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+          <label>
+            Email
+            <input
+              type="email"
+              name="email"
+              placeholder="you@example.com"
+              required
+            />
+          </label>
+          <label>
+            Intent
+            <select name="intent">
+              <option value="Personal">Personal account</option>
+              <option value="Business">Business account</option>
+              <option value="Private">Private banking</option>
+            </select>
+          </label>
+          <button class="btn primary" type="submit">Request access</button>
+          <p class="form-note" id="formNote">
+            This is a static demo for now. We’ll wire it to a backend when
+            you’re ready.
+          </p>
+        </form>
+      </section>
+
+      <footer class="footer">
+        <div>
+          <strong>gomd3n.com</strong>
+          <p>Gold‑label finance for modern builders.</p>
+        </div>
+        <p class="footer-note">© 2026 gomd3n.com</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
